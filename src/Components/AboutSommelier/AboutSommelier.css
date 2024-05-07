@@ -1,0 +1,48 @@
+.AboutSommelier {
+    padding-bottom: 70px;
+}
+
+.AboutSommelier img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.flex-text {
+    display: inline-flex;
+    padding: 0px 45px 50px;
+    justify-content: space-between;
+}
+
+.flex-text p {
+    width: 40%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.AboutSommelier_btn {
+    display: flex;
+    width: 30%;
+    padding: 0px 45px;
+    cursor: pointer;
+}
+
+.AboutSommelier_btn p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 11px;
+    letter-spacing: 0.5em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.AboutSommelier_btn img {
+    width: 46px;
+    height: 1px;
+    margin-left: 40px;
+    margin-top: 5px;
+}

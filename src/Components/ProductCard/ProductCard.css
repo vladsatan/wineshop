@@ -1,0 +1,108 @@
+.ProductCard {
+    max-width: 238px;
+    margin-bottom: 100px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.ProductCard h3 {
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 600;
+ font-size: 14px;
+ line-height: 4px;
+ letter-spacing: 0.25em;
+ color: #FFFFFF;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ text-transform: uppercase;
+}
+
+.card-year {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 14px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.flex-producer {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.flex-producer img {
+    margin-right: 15px;
+    width: 14px;
+    height: 6px;
+}
+
+.flex-producer p {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 14px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.flex-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quantity {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6px;
+    line-height: 14px;
+    letter-spacing: 0.55em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.35;
+}
+
+.price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 4px;
+}
+
+.flex-price button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.35em;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    background-color: #7A0000;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.flex-price button:hover {
+    border-radius: 8px;
+    background-color: #4a0c0c;
+}

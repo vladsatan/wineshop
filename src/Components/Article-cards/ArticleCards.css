@@ -1,0 +1,20 @@
+.ArticleCards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 75px;
+    position: relative;
+}
+
+.ArticleCards a img {
+    width: 475px;
+}
+
+.ArticleCards a {
+    transition: .2s;
+}
+
+ .ArticleCards a:hover {
+   box-shadow:  6px 4px 10px #4a2020;
+} 

@@ -1,0 +1,67 @@
+.MailingList {
+    width: 100%;
+    background-image: url("../../img/MailingList-bg.png");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 45px;
+}
+
+.MailingList h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.MailingList p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+.MailingList input {
+    display: block;
+  width: 393px;
+  font-size: 16px;
+  padding: 10px;
+  outline: none;
+    border: none;
+    margin-bottom: 24px;
+}
+
+.MailingList button {
+  width: 188px;
+    padding: 10px 50px;
+    background-color: #9D0000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    margin-bottom: 50px;
+    transition: .3s;
+}
+
+.MailingList button:hover {
+    background-color: #4a0c0c;
+    border-radius: 8px;
+}
+
+.social-media {
+    width: 188px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
